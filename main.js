@@ -32,7 +32,7 @@ const validateInput = (inputObj) => {
         return false;
     }
     if ((password.length) <4 || !/\d/.test(password) || !/[a-zA-Z]/.test(password)) {
-        alert('กรุณากรอกusernameให้มีความยาวมากกว่า 4 ตัว และต้องมีทั้งตัวเลขและตัวอักษร');
+        alert('กรุณากรอกPasswordให้มีความยาวมากกว่า 4 ตัว และต้องมีทั้งตัวเลขและตัวอักษร');
         changeColor('#password');
         return false;
     }
